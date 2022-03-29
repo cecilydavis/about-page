@@ -1,0 +1,67 @@
+html{
+    background: #A29EA6;
+}
+body{
+  font-family: 'TT Norms', Arial, Helvetica;
+}
+/*Positioning Grid*/
+.wrapper__bg{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*Setting sizes n stuff*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 100vh;
+    grid-gap: 0;
+    position: relative;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+/*Gaps in Grid*/
+.grid__item{
+    border: 1px gray;
+    box-shadow: 0 0 0 25px white;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+/*Basically the lines*/
+.grid__main{
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    background:lightgray;
+}
+
+/*Yeah*/
+.title{
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Fitting window size*/
+#sizing{
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+}
+
+/*Image begind grid*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+    height: 100%
+}
